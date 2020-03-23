@@ -1,0 +1,32 @@
+Batch Testing
+Parallel Testing
+-----------------
+Batch Testing: Excuting
+
+structure of testing xml file
+--------------------------
+<suite name="sanity">
+	 <test name="sanitytests">
+			<classes>
+					<class name= -----/>
+					<class name=  -----/>
+				</classes>
+	 </test>
+</suite>
+
+TestNg Listeners
+---------------
+TestListenerAdapter
+TestNg Reports
+--------------
+@Test(enabled=false)
+
+TestNg Listeners
+---------------
+TestListenerAdapter
+
+onTestStart()
+onTestSuccess()
+onTestFailure()
+onTesSkipped()
+------------------------
